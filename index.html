@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete Eva Salgados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #0c0c0b
+        }
+        header {
+            background-color: royalblue;
+            color: rgb(14, 11, 11);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            text-align: center;
+            flex: 1;
+        }
+        .logo img {
+
+            height: 200px;
+        }
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+        .icons img {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+        .icons img:hover{
+           background-color: #339fe7
+        }
+        nav {
+            text-align: center;
+            background-color: #21dda5;
+            padding: 20px;
+        }
+        nav a {
+            color: rgb(12, 11, 11);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }  
+        .container {
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            border: 5px solid #21dda5;
+            border-radius: 5px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            width: calc(20.20% - 30px);
+            box-sizing: border-box;
+            background-color: #e6f7ae;
+        }
+            .product img {
+            width: 160px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product img:hover{
+            background-color: #21dda5;
+
+            
+        }
+        .product h3 {
+            margin: 5px 1;
+        }
+        .product p {
+            color: #080808;
+        }
+        
+
+        .contato button{
+            background-color: #21dda5;
+            color: rgb(10, 10, 14);
+            border: none;
+            padding: 20px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        
+         .contato button:hover {
+            background-color:#44a6e7 ;
+        }
+        body .contato{
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer {
+            background-color: #21dda5;
+            color: rgb(7, 7, 136);
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-family:  Helvetica;
+
+        }
+    
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: calc(100% - 20px);
+            }
+            .icons {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="img.html/Logo Dona Eva 2 certa.png" alt="Logo Lanchonete Eva Salgados">
+        </div>
+
+        <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61560708254443&locale=pt_BR"><img src="img.html/Facebook.png"></a>
+
+                <a href="https://wa.me/5533999079765"><img src="img.html/whatsapp jpg.png" width="50x50"></a>
+            </div>
+        
+        <div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="Quem somos.html"><strong>Quem somos</strong></a>
+    </nav>
+
+    <div class="container">
+        <div class="product">
+            <img src="img.html/coxinhas.jpg" alt="Coxinha">
+            <h3>Coxinhas</h3>
+            <p>Deliciosas coxinhas de frango.</p>
+            
+        </div>
+        <div class="product">
+            <img src="img.html/KIBE.jpg" alt="Kibe">
+            <h3>Kibes</h3>
+            <p>Saborosos e recheados.</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/doces.jpg.jpeg" alt="Kibe">
+            <h3>Bombons e Doces para festas</h3>
+            <p>Bombons e docinhos para festas
+                faça sua encomenda.</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/diversos.png" alt="Diversos">
+            <h3>Enroladinho de salsicha e outros</h3>
+            <p>Salgados para consumo e revenda</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/torta de biscoito.jpg" alt="">
+            <h3>Torta de Biscoito</h3>
+            <p>Torta de biscoito deliciosa, faça sua encomenda.</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/salgados.jpg.jpeg" alt="salgados">
+            <h3>Pasteis e croquetes </h3>
+            <p>Salgados variados tradicionais</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/tropeiro.jpeg" alt="Feijão tropeiro">
+            <h3>Feijão tropeiro</h3>
+            <p>Feijão tropeiro tradicional por encomenda.</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/pizzas.jpg.jpg" alt="Pizzas">
+            <h3>Pizzas</h3>
+            <p>Mini pizzas pré assadas e brotinho por encomenda</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/torta2.jpg.jpeg" alt="Torta de Frango">
+            <h3>Torta de Frango</h3>
+            <p>Torta de Pão de forma e frango .</p>
+        </div>
+
+        <div class="product">
+            <img src="img.html/macarrao.jpg" alt="Macarrão">
+            <h3>Macarrão na chapa</h3>
+            <p>O melhor Macarrão na chapa da cidade.</p>
+        </div>
+    </nav>
+    <div class="contato">
+        <button onclick= "window.location.href='https://wa.me/5533999079765'"> <strong>CLIQUE AQUI E FAÇA SEU PEDIDO PELO WHATSAPP </strong></button>
+        </div><br>
+    <footer>
+        <p><strong>A porta que Deus abre ninguém não pode fechar, e a porta que Deus fecha ningém pode abrir. (AP:3:7-8)</strong></p>
+    </footer>
+</body>
+</html>
+

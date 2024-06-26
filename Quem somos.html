@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Lanchonete Eva Salgados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#dff1b2; ;
+        }
+        header {
+            background-color: royalblue;
+            color: rgb(8, 8, 8);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            text-align: center;
+            flex: 1;
+        }
+        .logo img {
+            height: 200px;
+        }
+        .logo{
+            transition:all 0.3s ease-in-out ;
+        }
+       
+        .icons {
+            display: flex;
+            align-items: center;
+        }
+        .icons img {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+        .icons img:hover{
+           background-color: #339fe7;
+        }
+        nav {
+            text-align: center;
+            background-color: #21dda5;
+            padding: 20px;
+        }
+        nav a {
+            color: rgb(15, 15, 15);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .container {
+            padding: 10px;
+        }
+        .container p {
+            text-align: left;
+            text-align: justify;
+        }
+        .container img{
+            border: 8px solid #21dda5;
+            padding: 2px;
+            width: 120px;
+        }
+        .contato button{
+            background-color: #21dda5;
+            color: rgb(10, 10, 14);
+            border: none;
+            padding: 10px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 10px;
+        }
+        
+         .contato button:hover {
+            background-color: #37a1e7;
+        }
+        body .contato{
+            text-align: left;
+            padding: 2px;
+            position: relative;
+            bottom: 0;
+            width: 50%;
+        }
+        .contact-info, .map, .sponsors {
+            margin-bottom: 10px;
+        }
+        .contact-info h2, .map h2 {
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .map {
+            display: flex;
+            justify-content: space-between;
+        }
+        .map iframe {
+
+            width: 900px;
+            height: 200px;
+            border: 0;
+        }
+        .sponsors img {
+            border: 05px solid#181b1a;
+            width: 200;
+            height: 250;
+            margin: 0 10px;
+        }
+        .sponsors:hover {
+            transform: scale(1.0);
+        }
+        .sponsors img.enlarged {
+            transform: scale(1.0);
+        }
+        footer {
+            background-color:#21dda5 ;
+            color: rgb(14, 12, 12);
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        @media (max-width: 768px) {
+            .product {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: calc(100% - 20px);
+            }
+            .icons {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img.html/Logo Dona Eva 2 certa.png" alt="Logo Lanchonete Eva Salgados">
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=61560708254443&locale=pt_BR"><img src="img.html/Facebook.png"></a>
+
+                <a href="https://wa.me/5533999079765"><img src="img.html/whatsapp jpg.png"></a>
+        </div>
+        <div></div>
+    </header>
+
+    <nav>
+    
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="contato.html"></a>
+
+    </nav>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2><strong>Quem Somos</strong></h2>
+            <img src="img.html/logo Eva.png" alt="foto">
+
+            <div>
+
+            <p>Lanchonete Eva Salgados oferece grande variedade de salgados e doces.<br>
+            Feitos com os melhores ingredientes para satisfazer o seu paladar <br>
+            Nossos produtos  também estão nas melhores lanchonetes da cidade.<br>
+            Encomendas de kits para festas: tortas doces e  salgadas, docinhos, salgadinhos fritos e para fritar.<br>
+            Casamentos, aniversários, batizados e outros, contate-nos e teremos prazer em servi-los.<br>
+             <strong>Com 28 anos de mercado, nossa missão é proporcionar uma experiência única de sabor e qualidade.</strong><br>
+             <br>
+            </div>
+
+            <h3>Endereço:</h3>
+            <p>Rua: Ana Maria Marques de Souza n°71<br>
+             Bairro: Nossa senhora Aparecida.<br>
+             Caratinga MG</p>
+            <p><strong>Telefone:55(33)99907-9765</pstrong></p>
+        </div><br>
+        <div class="contato">
+            <button onclick= "window.location.href='https://wa.me/5533999079765'"> <strong>CLIQUE AQUI E FAÇA SEU PEDIDO PELO WHATSAPP </strong></button>
+            </div><br>
+
+            <div class="sponsors">
+                <h2>Patrocinadores</h2>
+                <img src="img.html/hamburgao.jpeg" alt="Revendedor1">
+                <img src="img.html/radio .jpeg" alt="revendedor 4">
+                <img src="img.html/Boca fresca.png" alt="Revendedor2">
+                <img src="img.html/quente gelado.png" alt="Revendedor3">
+                <img src="img.html/Gesso.png" alt="Revendedor 5">
+            </div><br>
+
+            <p><h4>Click no mapa e veja localização:</h4></p>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.3508994170484!2d-42.151190685146144!3d-19.792454188455153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xba90d0933258d1%3A0xeca3b554af714c0b!2sR.%20Ana%20Maria%20Marqu%C3%AAs%20de%20Souza%2C%2099%20-%20Nossa%20Sra.%20Aparecida%2C%20Caratinga%20-%20MG%2C%2035300-136!5e0!3m2!1sen!2sbr!4v1623268273125!5m2!1sen!2sbr"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Lanchonete Eva Salgados. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
